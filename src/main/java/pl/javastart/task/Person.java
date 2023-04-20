@@ -7,12 +7,9 @@ public class Person {
     private String pesel;
 
     public Person(String firstName, String lastName, int age, String pesel) {
-        checkFirstName(firstName);
-        checkLastName(lastName);
-        checkAge(age);
-        this.firstName = firstName;
-        this.lastName = lastName;
-        this.age = age;
+        setFirstName(firstName);
+        setLastName(lastName);
+        setAge(age);
         this.pesel = pesel;
     }
 
